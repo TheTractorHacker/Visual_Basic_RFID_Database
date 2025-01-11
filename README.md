@@ -1,57 +1,89 @@
-# Visual_Basic_RFID_Database
-RFID Attendance is a software application developed by TagWave Technologies for managing attendance using RFID technology. This software allows users to efficiently track and record attendance by scanning RFID tags, making it ideal for educational institutions, workplaces, and events.
+# **Visual Basic RFID Attendance System**
+Developed by **Blake Foley**
 
-RFID Reader must be Plug and Play USB(Universal Serial Bus): It must ask keyboard input!
+RFID Attendance is a modern software solution designed to streamline attendance tracking using RFID technology. Perfect for educational institutions, workplaces, and events, this application simplifies the process of recording and managing attendance with speed and accuracy.
 
-Features
-RFID Tag Scanning: Quickly scan and log attendance using RFID tags.
-User Management: Easily manage users and their RFID tags.
-Attendance Reports: Generate and export attendance reports for analysis.
-User-Friendly Interface: Simple and intuitive interface for easy use.
-System Requirements
-Operating System: Windows 10 or later
-Processor: 1 GHz or faster
-Memory: 2 GB RAM or more
-Storage: 100 MB of available space
-.NET Framework: .NET Framework 4.6.1 or later
-Installation Instructions
+---
 
-Download the Installer:
-Download the latest version of the RFID Attendance installer from the official website or from the provided link.
+## 🌟 **Features**
+- **RFID Tag Scanning**: Effortlessly scan and log attendance using RFID tags.  
+- **User Management**: Add, edit, and manage users and their assigned RFID tags.  
+- **Attendance Reports**: Generate, filter, and export attendance reports for seamless analysis.  
+- **User-Friendly Interface**: Intuitive design for easy navigation and use.  
 
-Run the Installer:
-Double-click the downloaded .exe file to launch the installer.
-Follow the on-screen instructions to complete the installation.
+---
 
-License Agreement:
-Read the License Agreement carefully during installation.
-You must accept the terms and conditions to proceed with the installation.
+## 🖥️ **System Requirements**
+- **Operating System**: Windows 10 or later  
+- **Processor**: 1 GHz or faster  
+- **Memory**: 2 GB RAM or more  
+- **Storage**: 100 MB of available disk space (plus additional space for the database and web server requirements)  
+- **Framework**: .NET Framework 4.6.1 or later  
+- **RFID Reader**: USB Plug-and-Play (keyboard input required)  
+- **Additional Software**:  
+  - **SQL Database**: Any SQL-compatible database (e.g., MySQL, MariaDB, SQLite)  
+  - **Web Server with PHP**: Required for the integrated web interface  
 
-Installation Directory:
-Choose the installation directory or use the default directory provided by the installer.
+---
 
-Finish Installation:
-Once the installation is complete, you can launch RFID Attendance from the Start Menu or Desktop shortcut.
-Getting Started
+## 📁 **Data Folder**
+- After installation, a **Data** folder is created on the desktop. This folder contains all the necessary SQL files and web files required by the application.
+- Ensure your SQL database and web server are properly configured to use these files and support the application.
 
-Launch the Software:
-Open RFID Attendance from the Start Menu or Desktop shortcut.
+---
 
-Set Up Users:
-Add users and assign RFID tags to them through the user management interface.
+## 📥 **Installation Instructions**
 
-Track Attendance:
-Use the RFID scanner to track attendance by scanning users' RFID tags.
+1. **Download the Installer**  
+   - Obtain the latest version of the installer from the official website or the provided link.
 
-Generate Reports:
-Use the reporting feature to generate attendance reports for a selected date range.
+2. **Run the Installer**  
+   - Double-click the downloaded `.exe` file to start the installation process.  
+   - Follow the on-screen instructions to proceed.
 
-Troubleshooting
+3. **License Agreement**  
+   - Review the License Agreement during installation.  
+   - Accept the terms and conditions to continue.
 
-RFID Reader Not Detected:
-Ensure that the RFID reader is properly connected to the computer.
-Check that the necessary drivers are installed.
+4. **Choose Installation Directory**  
+   - Select a preferred installation directory or use the default option provided.
 
-Installation Issues:
-Ensure you have sufficient permissions to install software on your computer.
-Verify that your system meets the minimum requirements.
+5. **Complete Installation**  
+   - Once installed, launch the software from the **Start Menu** or desktop shortcut.
+
+---
+
+## 🚀 **Getting Started**
+
+1. **Launch the Software**  
+   Open RFID Attendance from the **Start Menu** or desktop shortcut.
+
+2. **Set Up Users**  
+   Add users and assign RFID tags using the intuitive user management interface.
+
+3. **Track Attendance**  
+   Use the RFID scanner to log attendance by scanning RFID tags.
+
+4. **Generate Reports**  
+   Create detailed attendance reports for any date range and export them for further use.
+
+---
+
+## 🛠️ **Troubleshooting**
+
+### RFID Reader Not Detected
+- Ensure the RFID reader is securely connected to the computer.
+- Verify that all required drivers are properly installed.
+
+### Installation Issues
+- Confirm that you have administrative privileges to install software.  
+- Check that your system meets the minimum requirements.  
+
+### Web Interface or SQL Issues
+- Ensure your SQL database (e.g., MySQL, MariaDB, SQLite) is installed and configured correctly.  
+- Import the SQL files from the **Data** folder into your database.  
+- Configure the web files in the **Data** folder to work with your web server and PHP.
+
+---
+
+This documentation is now generic enough to accommodate any SQL database and is ready to be pasted into your GitHub README.md file.
