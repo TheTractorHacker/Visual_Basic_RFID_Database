@@ -38,7 +38,7 @@ RFID Attendance is a modern software solution designed to streamline attendance 
    - Obtain the latest version of the installer from the official website or the provided link.
 
 2. **Run the Installer**  
-   - Double-click the downloaded `.exe` file to start the installation process.  
+   - Double-click the downloaded `.msi` package to start the installation process.  
    - Follow the on-screen instructions to proceed.
 
 3. **License Agreement**  
