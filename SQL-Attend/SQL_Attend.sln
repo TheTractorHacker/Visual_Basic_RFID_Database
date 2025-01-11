@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "RFID_ex", "RFID_ex\RFID_ex.vdproj", "{70B4F25E-3504-43D2-9BFB-99073DF334A9}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "SQL_Attend", "Forms\SQL_Attend.vbproj", "{84309D02-26B3-4EA5-A116-7C5B85D0DF18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70B4F25E-3504-43D2-9BFB-99073DF334A9}.Debug|Any CPU.ActiveCfg = Debug
+		{70B4F25E-3504-43D2-9BFB-99073DF334A9}.Debug|x64.ActiveCfg = Debug
+		{70B4F25E-3504-43D2-9BFB-99073DF334A9}.Debug|x64.Build.0 = Debug
+		{70B4F25E-3504-43D2-9BFB-99073DF334A9}.Release|Any CPU.ActiveCfg = Release
+		{70B4F25E-3504-43D2-9BFB-99073DF334A9}.Release|x64.ActiveCfg = Release
+		{70B4F25E-3504-43D2-9BFB-99073DF334A9}.Release|x64.Build.0 = Release
+		{84309D02-26B3-4EA5-A116-7C5B85D0DF18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84309D02-26B3-4EA5-A116-7C5B85D0DF18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84309D02-26B3-4EA5-A116-7C5B85D0DF18}.Debug|x64.ActiveCfg = Debug|x64
+		{84309D02-26B3-4EA5-A116-7C5B85D0DF18}.Debug|x64.Build.0 = Debug|x64
+		{84309D02-26B3-4EA5-A116-7C5B85D0DF18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84309D02-26B3-4EA5-A116-7C5B85D0DF18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84309D02-26B3-4EA5-A116-7C5B85D0DF18}.Release|x64.ActiveCfg = Release|x64
+		{84309D02-26B3-4EA5-A116-7C5B85D0DF18}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2701778-3FDF-42C1-AA51-9C204AF03836}
+	EndGlobalSection
+EndGlobal
